@@ -1,0 +1,58 @@
+/* google fonts */
+@import url('https://fonts.googleapis.com/css2?family=Quicksand:wght@300;400;500;600;700&display=swap');
+
+h1, h2, h3, h4, ul, li, a, p, input, label, button, div, footer{
+  font-family: 'Quicksand', sans-serif;
+	font-weight: 500;
+}
+
+pre {
+	background: rgb(56, 54, 54);
+	color: white;
+	padding: 10px 0;
+}
+
+img {
+	width: 100%;
+}
+
+mark {
+	background-color: yellow;
+	color: black;
+}
+
+textarea {
+	height: 50vh;
+}
+
+.col02 {
+	display: flex;
+	justify-content: space-between;
+	flex-wrap: wrap;
+}
+
+.form-outline {
+	width: 100%;
+	position: relative;
+}
+
+#search {
+	width: 400px;
+}
+
+#btn {
+	position: absolute;
+	right: 0;
+}
+
+
+
+@media only screen and (max-width: 550px) {
+	#search {
+		width: 100%;
+	}
+	#form {
+		width: 100%;
+		margin-top: 1rem;
+	}
+}
